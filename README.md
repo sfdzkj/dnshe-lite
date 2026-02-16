@@ -1,4 +1,4 @@
-# DNSHE Lite Manager（PHP + SQLite 绿色版）— 简易说明
+# DNSHE Lite Manager（PHP + SQLite 绿色版）
 
 ## 这是什么？
 DNSHE Lite Manager 是一个 **解压即用** 的 DNSHE 免费域名多账户管理面板，采用 **PHP + SQLite（单文件数据库）**，无需 MySQL。
