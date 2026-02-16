@@ -1,8 +1,8 @@
-# DNSHE Lite Manager（PHP + SQLite 绿色版）— 方案2 增强版
+# DNSHE Lite Manager（PHP + SQLite 绿色版）
 
 本包在原完整版基础上实现了以下需求：
 
-## 1. 域名管理（方案2显示规则）
+## 1. 域名管理
 - 配额显示为：**已注册 X 个，剩余 Y 个注册名额**（来自 quota.used / quota.available）。
 - 列名改为 **注册/剩余**：
   - 注册时间取 `subdomains list` 返回的 `created_at`
