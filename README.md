@@ -46,10 +46,6 @@ DNSHE Lite Manager 是一个 **解压即用** 的 DNSHE 免费域名多账户管
 - 单账户：`mode=account&id=...&ts=...&sig=...` 
 - 全局：`mode=global&ts=...&sig=...`
 
-### 宝塔/cron 示例
-```bash
-curl -s "<复制的完整续期URL>" > /dev/null
-
 ![ScreenShot_2026-02-17_013801_504.png](https://youke.xn--y7xa690gmna.cn/s1/2026/02/17/699357311c36e.webp)
 
 ![ScreenShot_2026-02-17_013901_744.png](https://youke.xn--y7xa690gmna.cn/s1/2026/02/17/699357314c726.webp)
@@ -59,3 +55,10 @@ curl -s "<复制的完整续期URL>" > /dev/null
 ![ScreenShot_2026-02-17_013832_020.png](https://youke.xn--y7xa690gmna.cn/s1/2026/02/17/6993573219f3a.webp)
 
 ![ScreenShot_2026-02-17_013821_895.png](https://youke.xn--y7xa690gmna.cn/s1/2026/02/17/699357321aaac.webp)
+
+
+### 宝塔/cron 示例
+```bash
+curl -s "<复制的完整续期URL>" > /dev/null
+
+
