@@ -1,0 +1,17 @@
+/* assets/css/app.css */
+:root{
+  --sidebar-w: 240px;
+}
+.sidebar{
+  width: var(--sidebar-w);
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+}
+@media (max-width: 992px){
+  .sidebar{width: 200px;}
+}
+.badge-expire{ background:#ff4d4f; }
+.secret-mask{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;}
+.table-actions{white-space:nowrap;}
+.link-buttons .btn{padding:.2rem .5rem;}
